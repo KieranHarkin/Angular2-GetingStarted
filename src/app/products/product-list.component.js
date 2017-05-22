@@ -39,6 +39,9 @@ var ProductListComponent = (function () {
     ProductListComponent.prototype.toggleImage = function () {
         this.showImage = !this.showImage;
     };
+    ProductListComponent.prototype.ngOnInit = function () {
+        console.log("Inside OnInit Life Cycle Hook.");
+    };
     return ProductListComponent;
 }());
 ProductListComponent = __decorate([
