@@ -45,4 +45,8 @@ export class ProductListComponent implements OnInit {
     ngOnInit(): void {
         console.log("Inside OnInit Life Cycle Hook.");
     }
+
+    onRatingClicked(message: string): void {
+        this.pageTitle = 'Product List: ' + message;
+    }
 }
