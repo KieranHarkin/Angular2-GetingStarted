@@ -6,19 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var product_service_1 = require("./products/product.service");
-var AppComponent = (function () {
-    function AppComponent() {
-        this.pageTitle = "AMCE Product Management";
+var ProductDetailComponent = (function () {
+    function ProductDetailComponent() {
+        this.pageTitle = 'Product Detail';
     }
-    return AppComponent;
+    return ProductDetailComponent;
 }());
-AppComponent = __decorate([
+ProductDetailComponent = __decorate([
     core_1.Component({
-        selector: 'pm-app',
-        templateUrl: 'app/app.component.html',
-        providers: [product_service_1.ProductService]
+        templateUrl: 'app/products/product-detail.component.html'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], ProductDetailComponent);
+exports.ProductDetailComponent = ProductDetailComponent;
+//# sourceMappingURL=product-detail.component.js.map
