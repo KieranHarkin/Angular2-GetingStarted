@@ -23,4 +23,4 @@ ProductFilterPipe = __decorate([
     })
 ], ProductFilterPipe);
 exports.ProductFilterPipe = ProductFilterPipe;
-//# sourceMappingURL=product-filter.Pipe.js.map
+//# sourceMappingURL=product-filter.pipe.js.map
